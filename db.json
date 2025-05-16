@@ -1,0 +1,28 @@
+{
+  "commodities": [
+    {
+      "id": 1,
+      "name": "GKP Tingkat Petani",
+      "price": "Rp 5.000",
+      "image": "/gkp.jpg"
+    },
+    {
+      "id": 2,
+      "name": "GKG Tingkat Penggilingan",
+      "price": "Rp 5.500",
+      "image": "/gkg.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Beras Medium Penggilingan",
+      "price": "Rp 7.000",
+      "image": "/medium.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Beras Premium Penggilingan",
+      "price": "Rp 8.500",
+      "image": "/premium.jpg"
+    }
+  ]
+}

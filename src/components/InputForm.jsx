@@ -1,4 +1,5 @@
 import { useState } from "react";
+import data from "../../db.json";
 
 const InputForm = ({ onSubmit }) => {
   const [commodity, setCommodity] = useState("");
@@ -6,6 +7,7 @@ const InputForm = ({ onSubmit }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(data);
     onSubmit(commodity, market);
   };
 
